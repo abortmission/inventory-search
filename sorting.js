@@ -18,11 +18,9 @@ function renderTable(data) {
         tableBody.innerHTML += row;
     });
 }
-// Dipanggil saat load JSON dari file
-function loadInventory(jsonData) {
-    items = jsonData;
+function loadInventory("inventory.json") {
+    items = "inventory.json";
 
-    // otomatis rapih saat load
     sortById();
 
     renderTable(items);
@@ -50,4 +48,5 @@ function renderSearchResults(results) {
     results.sort((a, b) => a.id.localeCompare(b.id));
 
     renderTable(results);
+
 }
