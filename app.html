@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Inventory Search UI</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#94a3b8;--accent:#60a5fa;--glass:rgba(255,255,255,0.04)}
+    html,body{height:100%;margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,'Helvetica Neue',Arial}
+    body{background:linear-gradient(180deg,#071029 0%, #071936 100%);color:#e6eef8;padding:28px;box-sizing:border-box}
+    .app{max-width:980px;margin:0 auto}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+    h1{font-size:20px;margin:0}
+    .card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+    .controls{display:flex;gap:8px;flex-wrap:wrap}
+    input[type=text],select{background:var(--glass);border:1px solid rgba(255,255,255,0.04);color:var(--muted);padding:8px 10px;border-radius:8px;min-width:180px}
+    input[type=file]{background:transparent;color:var(--muted)}
+    button{background:var(--accent);color:#062240;border:none;padding:8px 12px;border-radius:8px;cursor:pointer}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:14px;margin-top:14px}
+    .list{max-height:540px;overflow:auto;padding:8px;display:flex;flex-direction:column;gap:8px}
+    .item{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+    .item h3{margin:0;font-size:14px;color:#fff}
+    .meta{font-size:12px;color:var(--muted);margin-top:6px}
+    form{display:flex;flex-direction:column;gap:8px}
+    label{font-size:12px;color:var(--muted)}
+    .small{font-size:12px;color:var(--muted)}
+    .actions{display:flex;gap:8px}
+    footer{margin-top:12px;color:var(--muted);font-size:13px}
+    .muted{color:var(--muted)}
+    .danger{background:#ff7b7b}
+    .success{background:#7ef6a2;color:#04210f}
+    .search-stats{font-size:13px;color:var(--muted);margin-top:8px}
+    @media (max-width:900px){.grid{grid-template-columns:1fr;}.controls{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Inventory Search — Simple UI</h1>
+      <div class="small muted">Data source: <code>/mnt/data/inventory.json</code></div>
+    </header>
+
+    <div class="card">
+      <div class="controls">
+        <input type="text" id="q" placeholder="Cari (ketik lalu Enter) — contoh: mouse, A002" />
+        <select id="mode">
+          <option value="name">Name (partial)</option>
+          <option value="id">ID (exact)</option>
+          <option value="category">Category (exact)</option>
+          <option value="fuzzy">Fuzzy (toleransi typo)</option>
+          <option value="all">Show all</option>
+        </select>
+        <button id="searchBtn">Search</button>
+        <button id="resetBtn">Reset</button>
+        <button id="downloadBtn">Download JSON</button>
+        <label class="small muted" style="align-self:center">atau</label>
+        <input type="file" id="fileInput" accept="application/json" />
+        <button id="loadDefaultBtn">Load Default</button>
+      </div>
+
+      <div class="grid">
+        <div>
+          <div id="list" class="list" aria-live="polite"></div>
+          <div class="search-stats" id="stats"></div>
+        </div>
+
+        <aside>
+          <div class="card" style="padding:12px">
+            <h3 style="margin-bottom:8px">Add / Delete Item</h3>
+            <form id="addForm">
+              <label>ID <input type="text" id="i_id" required /></label>
+              <label>Name <input type="text" id="i_name" required /></label>
+              <label>Category <input type="text" id="i_cat" required /></label>
+              <label>Qty <input type="number" id="i_qty" required min="0" /></label>
+              <label>Location <input type="text" id="i_loc" /></label>
+              <div class="actions">
+                <button type="submit" class="success">Add</button>
+                <button type="button" id="delBtn" class="danger">Delete by ID</button>
+              </div>
+              <div class="small muted" style="margin-top:6px">Setelah menambah atau menghapus, gunakan tombol Download untuk menyimpan versi terbaru (file tidak akan disimpan ke server).</div>
+            </form>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="muted">UI ini berjalan sepenuhnya di browser. Gunakan tombol Upload atau Load Default untuk memuat data dari perangkat atau path yang tersedia. Simpan perubahan dengan tombol Download.</footer>
+    </div>
+  </div>
+
+  <script>
+    // Default local path to the uploaded inventory file in the environment
+    const DEFAULT_FILE_URL = 'sandbox:/mnt/data/inventory.json';
+
+    let items = [];
+
+    async function loadFromUrl(url){
+      try{
+        const res = await fetch(url);
+        if(!res.ok) throw new Error('Gagal memuat data: '+res.status);
+        items = await res.json();
+        renderList(items);
+        setStats(items.length, 'Loaded');
+      }catch(err){
+        document.getElementById('list').innerHTML = '<div class="muted">Gagal memuat inventory.json. Cek path atau gunakan versi lokal.</div>';
+        console.error(err);
+      }
+    }
+
+    function loadFromFile(file){
+      const reader = new FileReader();
+      reader.onload = function(e){
+        try{
+          items = JSON.parse(e.target.result);
+          renderList(items);
+          setStats(items.length, 'Loaded from file');
+        }catch(err){
+          alert('File JSON tidak valid.');
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function setStats(count, note){
+      document.getElementById('stats').textContent = `${count} item — ${note}`;
+    }
+
+    function renderList(list){
+      const container = document.getElementById('list');
+      if(!list || list.length===0){ container.innerHTML = '<div class="muted">Tidak ada item untuk ditampilkan.</div>'; return; }
+      container.innerHTML = '';
+      for(const it of list){
+        const el = document.createElement('div'); el.className='item';
+        const h = document.createElement('h3'); h.textContent = `${it.id} — ${it.name}`; el.appendChild(h);
+        const m = document.createElement('div'); m.className='meta';
+        m.innerHTML = `Kategori: ${it.category} · Qty: ${it.qty} · Lokasi: ${it.location}`;
+        el.appendChild(m);
+        container.appendChild(el);
+      }
+    }
+
+    // Simple Levenshtein distance for fuzzy similarity
+    function levenshtein(a,b){
+      a = String(a).toLowerCase(); b = String(b).toLowerCase();
+      const m=a.length, n=b.length; if(m===0) return n; if(n===0) return m;
+      const dp = Array.from({length:m+1},()=>new Array(n+1));
+      for(let i=0;i<=m;i++) dp[i][0]=i; for(let j=0;j<=n;j++) dp[0][j]=j;
+      for(let i=1;i<=m;i++) for(let j=1;j<=n;j++){
+        const cost = a[i-1]===b[j-1]?0:1;
+        dp[i][j] = Math.min(dp[i-1][j]+1, dp[i][j-1]+1, dp[i-1][j-1]+cost);
+      }
+      return dp[m][n];
+    }
+
+    function similarityRatio(a,b){
+      const d = levenshtein(a,b);
+      const maxLen = Math.max(String(a).length, String(b).length);
+      if(maxLen===0) return 1;
+      return 1 - (d / maxLen);
+    }
+
+    function searchById(id){ return items.find(it=>String(it.id)===String(id)) ? [items.find(it=>String(it.id)===String(id))] : []; }
+    function searchByName(q){ q = q.toLowerCase().trim(); return items.filter(it=>String(it.name).toLowerCase().includes(q)); }
+    function searchByCategory(cat){ cat = cat.toLowerCase().trim(); return items.filter(it=>String(it.category).toLowerCase()===cat); }
+    function fuzzySearch(q, cutoff=0.5, limit=20){
+      const scores = items.map(it=>({it,score:similarityRatio(q, it.name)})).filter(x=>x.score>=cutoff);
+      scores.sort((a,b)=>b.score-a.score);
+      return scores.slice(0,limit).map(x=>x.it);
+    }
+
+    // UI actions
+    document.getElementById('searchBtn').addEventListener('click', ()=>{
+      const q = document.getElementById('q').value.trim();
+      const mode = document.getElementById('mode').value;
+      if(mode==='all'){ renderList(items); setStats(items.length, 'All items shown'); return; }
+      if(!q){ setStats(0,'Empty query'); renderList([]); return; }
+      let res = [];
+      if(mode==='id') res = searchById(q);
+      else if(mode==='name') res = searchByName(q);
+      else if(mode==='category') res = searchByCategory(q);
+      else if(mode==='fuzzy') res = fuzzySearch(q, 0.5, 20);
+      renderList(res); setStats(res.length, `Mode: ${mode}`);
+    });
+
+    document.getElementById('q').addEventListener('keydown', (e)=>{ if(e.key==='Enter') document.getElementById('searchBtn').click(); });
+    document.getElementById('resetBtn').addEventListener('click', ()=>{ document.getElementById('q').value=''; document.getElementById('mode').value='name'; renderList(items); setStats(items.length,'Reset'); });
+
+    // File upload handler
+    document.getElementById('fileInput').addEventListener('change',(e)=>{
+      const f = e.target.files[0]; if(!f) return; loadFromFile(f);
+    });
+
+    // Load default path from environment (uploaded file)
+    document.getElementById('loadDefaultBtn').addEventListener('click', ()=>{
+      loadFromUrl(DEFAULT_FILE_URL);
+    });
+
+    // Add / delete handlers (in-memory only)
+    document.getElementById('addForm').addEventListener('submit',(e)=>{
+      e.preventDefault();
+      const id = document.getElementById('i_id').value.trim();
+      const name = document.getElementById('i_name').value.trim();
+      const category = document.getElementById('i_cat').value.trim();
+      const qty = parseInt(document.getElementById('i_qty').value,10)||0;
+      const loc = document.getElementById('i_loc').value.trim();
+      if(items.find(it=>String(it.id)===id)){ alert('ID sudah ada'); return; }
+      const obj = {id,name,category,qty,location:loc};
+      items.push(obj);
+      renderList(items);
+      setStats(items.length,'Item added (in-memory)');
+      e.target.reset();
+    });
+
+    document.getElementById('delBtn').addEventListener('click', ()=>{
+      const id = prompt('Masukkan ID item yang akan dihapus:'); if(!id) return;
+      const idx = items.findIndex(it=>String(it.id)===String(id));
+      if(idx===-1){ alert('ID tidak ditemukan'); return; }
+      items.splice(idx,1);
+      renderList(items); setStats(items.length,'Item removed (in-memory)');
+    });
+
+    // Download JSON (snapshot)
+    document.getElementById('downloadBtn').addEventListener('click', ()=>{
+      const blob = new Blob([JSON.stringify(items, null, 2)], {type:'application/json'});
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'inventory.updated.json'; a.click(); URL.revokeObjectURL(a.href);
+    });
+
+    // Initial: show empty message and offer to load default
+    document.getElementById('list').innerHTML = '<div class="muted">Silakan tekan "Load Default" untuk memuat file dari path default, atau gunakan tombol Upload untuk pilih file secara manual.</div>';
+    setStats(0,'No data loaded');
+  </script>
+</body>
+</html>

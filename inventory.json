@@ -1,0 +1,331 @@
+[
+  {
+    "id": "A002",
+    "name": "Keyboard Mechanical",
+    "category": "Peripherals",
+    "qty": 6,
+    "location": "Rak A1"
+  },
+  {
+    "id": "A003",
+    "name": "Mouse Razer DeathAdder V2",
+    "category": "Peripherals",
+    "qty": 8,
+    "location": "Rak A1"
+  },
+  {
+    "id": "A004",
+    "name": "Mousepad SteelSeries QcK",
+    "category": "Accessories",
+    "qty": 20,
+    "location": "Rak A2"
+  },
+  {
+    "id": "B001",
+    "name": "Laptop Dell Inspiron 15",
+    "category": "Computers",
+    "qty": 4,
+    "location": "Gudang B"
+  },
+  {
+    "id": "B002",
+    "name": "Laptop HP Pavilion 14",
+    "category": "Computers",
+    "qty": 3,
+    "location": "Gudang B"
+  },
+  {
+    "id": "B003",
+    "name": "Laptop ASUS VivoBook S14",
+    "category": "Computers",
+    "qty": 5,
+    "location": "Gudang B"
+  },
+  {
+    "id": "B004",
+    "name": "Laptop Lenovo ThinkPad E14",
+    "category": "Computers",
+    "qty": 2,
+    "location": "Gudang B"
+  },
+  {
+    "id": "C010",
+    "name": "Kabel HDMI 2m",
+    "category": "Cables",
+    "qty": 30,
+    "location": "Rak C"
+  },
+  {
+    "id": "C011",
+    "name": "Kabel LAN Cat6 5m",
+    "category": "Cables",
+    "qty": 18,
+    "location": "Rak C"
+  },
+  {
+    "id": "C012",
+    "name": "Kabel USB Type-C",
+    "category": "Cables",
+    "qty": 25,
+    "location": "Rak C"
+  },
+  {
+    "id": "C013",
+    "name": "Adaptor USB to Ethernet",
+    "category": "Cables",
+    "qty": 10,
+    "location": "Rak C"
+  },
+  {
+    "id": "D001",
+    "name": "Monitor Samsung 24 Inch",
+    "category": "Display",
+    "qty": 7,
+    "location": "Rak D1"
+  },
+  {
+    "id": "D002",
+    "name": "Monitor LG UltraWide 29 Inch",
+    "category": "Display",
+    "qty": 5,
+    "location": "Rak D1"
+  },
+  {
+    "id": "D003",
+    "name": "Monitor Dell 27 Inch",
+    "category": "Display",
+    "qty": 6,
+    "location": "Rak D1"
+  },
+  {
+    "id": "E001",
+    "name": "Printer Canon PIXMA G2010",
+    "category": "Printers",
+    "qty": 3,
+    "location": "Rak E"
+  },
+  {
+    "id": "E002",
+    "name": "Printer Epson L3250",
+    "category": "Printers",
+    "qty": 4,
+    "location": "Rak E"
+  },
+  {
+    "id": "F001",
+    "name": "Router TP-Link Archer C20",
+    "category": "Networking",
+    "qty": 5,
+    "location": "Rak F"
+  },
+  {
+    "id": "F002",
+    "name": "Switch D-Link 8 Port",
+    "category": "Networking",
+    "qty": 10,
+    "location": "Rak F"
+  },
+  {
+    "id": "F003",
+    "name": "Access Point Ubiquiti UniFi",
+    "category": "Networking",
+    "qty": 3,
+    "location": "Rak F"
+  },
+  {
+    "id": "G001",
+    "name": "Headset Logitech H390",
+    "category": "Audio",
+    "qty": 9,
+    "location": "Rak G"
+  },
+  {
+    "id": "G002",
+    "name": "Speaker Creative Pebble 2.0",
+    "category": "Audio",
+    "qty": 6,
+    "location": "Rak G"
+  },
+  {
+    "id": "G003",
+    "name": "Microphone FIFINE K690",
+    "category": "Audio",
+    "qty": 5,
+    "location": "Rak G"
+  },
+  {
+    "id": "H001",
+    "name": "External HDD Seagate 1TB",
+    "category": "Storage",
+    "qty": 7,
+    "location": "Rak H"
+  },
+  {
+    "id": "H002",
+    "name": "SSD Samsung 970 EVO 500GB",
+    "category": "Storage",
+    "qty": 10,
+    "location": "Rak H"
+  },
+  {
+    "id": "H003",
+    "name": "Flashdisk Sandisk 32GB",
+    "category": "Storage",
+    "qty": 25,
+    "location": "Rak H"
+  },
+  {
+    "id": "I001",
+    "name": "Webcam Logitech C270",
+    "category": "Peripherals",
+    "qty": 8,
+    "location": "Rak I"
+  },
+  {
+    "id": "I002",
+    "name": "Camera Tripod 1.6m",
+    "category": "Accessories",
+    "qty": 5,
+    "location": "Rak I"
+  },
+  {
+    "id": "I003",
+    "name": "Lighting Ring LED",
+    "category": "Accessories",
+    "qty": 6,
+    "location": "Rak I"
+  },
+  {
+    "id": "J001",
+    "name": "Power Supply 650W Modular",
+    "category": "Components",
+    "qty": 4,
+    "location": "Rak J"
+  },
+  {
+    "id": "J002",
+    "name": "Graphics Card RTX 3060",
+    "category": "Components",
+    "qty": 6,
+    "location": "Rak J"
+  },
+  {
+    "id": "J003",
+    "name": "Motherboard B550M",
+    "category": "Components",
+    "qty": 5,
+    "location": "Rak J"
+  },
+  {
+    "id": "J004",
+    "name": "CPU Ryzen 5 5600",
+    "category": "Components",
+    "qty": 8,
+    "location": "Rak J"
+  },
+  {
+    "id": "J005",
+    "name": "CPU Cooler DeepCool",
+    "category": "Components",
+    "qty": 7,
+    "location": "Rak J"
+  },
+  {
+    "id": "J006",
+    "name": "RAM Corsair 16GB DDR4",
+    "category": "Components",
+    "qty": 10,
+    "location": "Rak J"
+  },
+  {
+    "id": "J007",
+    "name": "NVMe SSD 1TB",
+    "category": "Storage",
+    "qty": 9,
+    "location": "Rak H"
+  },
+  {
+    "id": "J008",
+    "name": "SATA HDD 2TB",
+    "category": "Storage",
+    "qty": 6,
+    "location": "Rak H"
+  },
+  {
+    "id": "J010",
+    "name": "Case Fan RGB 120mm",
+    "category": "Accessories",
+    "qty": 12,
+    "location": "Rak I"
+  },
+  {
+    "id": "J012",
+    "name": "UPS APC 650VA",
+    "category": "Power",
+    "qty": 5,
+    "location": "Rak J"
+  },
+  {
+    "id": "J013",
+    "name": "Power Strip 6 Port",
+    "category": "Power",
+    "qty": 15,
+    "location": "Rak J"
+  },
+  {
+    "id": "J014",
+    "name": "Cable Management Kit",
+    "category": "Accessories",
+    "qty": 10,
+    "location": "Rak I"
+  },
+  {
+    "id": "J015",
+    "name": "Monitor Arm Dual",
+    "category": "Display",
+    "qty": 6,
+    "location": "Rak D1"
+  },
+  {
+    "id": "J016",
+    "name": "Wireless Keyboard Logitech K380",
+    "category": "Peripherals",
+    "qty": 9,
+    "location": "Rak I"
+  },
+  {
+    "id": "J017",
+    "name": "Wireless Mouse Logitech M331",
+    "category": "Peripherals",
+    "qty": 11,
+    "location": "Rak I"
+  },
+  {
+    "id": "J018",
+    "name": "Webcam Razer Kiyo",
+    "category": "Peripherals",
+    "qty": 5,
+    "location": "Rak I"
+  },
+  {
+    "id": "J019",
+    "name": "Bluetooth Adapter USB",
+    "category": "Networking",
+    "qty": 14,
+    "location": "Rak F"
+  },
+  {
+    "id": "J020",
+    "name": "Portable Projector",
+    "category": "Display",
+    "qty": 3,
+    "location": "Rak D1"
+  },
+  {
+    "id": "A100",
+    "name": "Akbar",
+    "category": "Computers",
+    "qty": 1,
+    "location": "Rak A1"
+  }
+]
