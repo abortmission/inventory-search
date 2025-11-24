@@ -1237,5 +1237,775 @@
     "category": "Electronics",
     "qty": 4,
     "location": "Rack A"
+  },
+  {
+    "id": "S501",
+    "name": "Toyota GR Supra 3.0L Twin-Scroll Turbo 2023",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "S502",
+    "name": "Nissan GT-R R35 Premium 3.8L Twin Turbo 2021",
+    "category": "Sports Car",
+    "qty": 2,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "S503",
+    "name": "Mazda RX-7 FD3S Spirit R Type-A 2002",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Warehouse 3"
+  },
+  {
+    "id": "S504",
+    "name": "Honda NSX Type-R NA2 2005",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "S505",
+    "name": "Lamborghini Huracán EVO V10 2022",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Showroom A"
+  },
+  {
+    "id": "S506",
+    "name": "Ferrari 488 GTB V8 Twin Turbo 2020",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Showroom B"
+  },
+  {
+    "id": "S507",
+    "name": "Porsche 911 Carrera S (992) 3.0 Twin Turbo 2023",
+    "category": "Sports Car",
+    "qty": 2,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "S508",
+    "name": "BMW M4 Competition G82 3.0L Twin Turbo 2022",
+    "category": "Sports Car",
+    "qty": 3,
+    "location": "Showroom A"
+  },
+  {
+    "id": "S509",
+    "name": "Audi R8 V10 Performance Quattro 2021",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Warehouse 3"
+  },
+  {
+    "id": "S510",
+    "name": "Mercedes-AMG GT R 4.0L V8 Biturbo 2020",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Showroom B"
+  },
+  {
+    "id": "S511",
+    "name": "McLaren 720S 4.0L V8 Twin Turbo 2022",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "S512",
+    "name": "Chevrolet Camaro ZL1 Supercharged 6.2L 2020",
+    "category": "Sports Car",
+    "qty": 2,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "S513",
+    "name": "Ford Mustang Shelby GT500 5.2L Supercharged 2021",
+    "category": "Sports Car",
+    "qty": 2,
+    "location": "Showroom B"
+  },
+  {
+    "id": "S514",
+    "name": "Dodge Challenger SRT Hellcat Redeye 2022",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Warehouse 3"
+  },
+  {
+    "id": "S515",
+    "name": "Toyota GT86 2.0 Boxer 2018",
+    "category": "Sports Car",
+    "qty": 4,
+    "location": "Rack A"
+  },
+  {
+    "id": "S516",
+    "name": "Subaru BRZ 2.4 Boxer EyeSight 2023",
+    "category": "Sports Car",
+    "qty": 3,
+    "location": "Rack B"
+  },
+  {
+    "id": "S517",
+    "name": "Mazda MX-5 Miata ND RF 2.0 SkyActiv 2022",
+    "category": "Sports Car",
+    "qty": 3,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "S518",
+    "name": "BMW Z4 M40i Roadster 2023",
+    "category": "Sports Car",
+    "qty": 2,
+    "location": "Rack C"
+  },
+  {
+    "id": "S519",
+    "name": "Porsche Cayman GT4 4.0 Flat-Six 2021",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Showroom A"
+  },
+  {
+    "id": "S520",
+    "name": "Ferrari F8 Tributo 3.9L Twin Turbo 2022",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Showroom B"
+  },
+  {
+    "id": "S521",
+    "name": "Lamborghini Aventador SVJ V12 2020",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "S522",
+    "name": "Nissan Silvia S15 Spec-R 2002",
+    "category": "Sports Car",
+    "qty": 2,
+    "location": "Warehouse 3"
+  },
+  {
+    "id": "S523",
+    "name": "Toyota Celica GT-Four ST205 WRC Edition 1998",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Rack B"
+  },
+  {
+    "id": "S524",
+    "name": "Honda Civic Type R FK8 2.0 VTEC Turbo 2021",
+    "category": "Sports Car",
+    "qty": 3,
+    "location": "Rack A"
+  },
+  {
+    "id": "S525",
+    "name": "Hyundai i30 N Performance 2.0 Turbo 2022",
+    "category": "Sports Car",
+    "qty": 3,
+    "location": "Rack C"
+  },
+  {
+    "id": "S526",
+    "name": "Chevrolet Corvette C8 Stingray 6.2L V8 2023",
+    "category": "Sports Car",
+    "qty": 2,
+    "location": "Showroom A"
+  },
+  {
+    "id": "S527",
+    "name": "Jaguar F-Type R 5.0L Supercharged V8 2022",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "S528",
+    "name": "Aston Martin Vantage 4.0L Twin Turbo V8 2021",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Showroom B"
+  },
+  {
+    "id": "S529",
+    "name": "Lotus Exige Sport 410 3.5L Supercharged V6 2020",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Warehouse 3"
+  },
+  {
+    "id": "S530",
+    "name": "Toyota MR2 SW20 Turbo 1999",
+    "category": "Sports Car",
+    "qty": 1,
+    "location": "Rack A"
+  },
+  {
+    "id": "P601",
+    "name": "Boeing 737-800 NG Passenger Aircraft",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P602",
+    "name": "Airbus A320neo Commercial Jet",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P603",
+    "name": "Cessna 172 Skyhawk Single-Engine Training Plane",
+    "category": "Aircraft",
+    "qty": 3,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P604",
+    "name": "Gulfstream G650 Business Jet",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P605",
+    "name": "Boeing 787-9 Dreamliner Long-Haul Aircraft",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P606",
+    "name": "Airbus A350-900 Widebody Jet",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P607",
+    "name": "Beechcraft King Air 350 Twin-Turboprop",
+    "category": "Aircraft",
+    "qty": 2,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P608",
+    "name": "Lockheed C-130 Hercules Military Transport Plane",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P609",
+    "name": "Sukhoi Superjet 100 Regional Jet",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P610",
+    "name": "Bombardier CRJ900 Regional Jetliner",
+    "category": "Aircraft",
+    "qty": 2,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P611",
+    "name": "Antonov An-26 Cargo Transport Aircraft",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P612",
+    "name": "Pilatus PC-12 Single-Engine Turboprop",
+    "category": "Aircraft",
+    "qty": 3,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P613",
+    "name": "Embraer E195-E2 Commercial Jet",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P614",
+    "name": "Dassault Falcon 7X Luxury Business Jet",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P615",
+    "name": "Airbus A380-800 Double-Deck Long-Haul Aircraft",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P616",
+    "name": "Boeing 777-300ER Long-Range Jetliner",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P617",
+    "name": "Cessna Citation XLS+ Business Jet",
+    "category": "Aircraft",
+    "qty": 2,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P618",
+    "name": "Airbus A321neo ACF Mid-Range Commercial Jet",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P619",
+    "name": "Boeing 747-400 Cargo Freighter",
+    "category": "Aircraft",
+    "qty": 1,
+    "location": "Warehouse"
+  },
+  {
+    "id": "P620",
+    "name": "ATR 72-600 Twin-Engine Turboprop Regional Plane",
+    "category": "Aircraft",
+    "qty": 2,
+    "location": "Warehouse"
+  },
+  {
+    "id": "R701",
+    "name": "SpaceX Falcon 9 Block 5 Orbital Launch Vehicle",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R702",
+    "name": "NASA SLS (Space Launch System) Artemis I Core Stage",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R703",
+    "name": "Blue Origin New Shepard Suborbital Booster",
+    "category": "Rocket",
+    "qty": 2,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R704",
+    "name": "SpaceX Starship Super Heavy Booster Prototype",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R705",
+    "name": "United Launch Alliance Atlas V 551 Configuration",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R706",
+    "name": "Rocket Lab Electron Small Launch Vehicle",
+    "category": "Rocket",
+    "qty": 3,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R707",
+    "name": "Arianespace Ariane 5 ECA Heavy-Lift Rocket",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R708",
+    "name": "ISRO PSLV-XL Polar Satellite Launch Vehicle",
+    "category": "Rocket",
+    "qty": 2,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R709",
+    "name": "China Long March 5B Heavy Orbital Launcher",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R710",
+    "name": "Northrop Grumman Antares 230+ Rocket",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R711",
+    "name": "SpaceX Falcon Heavy Triple-Core Rocket",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R712",
+    "name": "Roscosmos Soyuz-2.1b Medium-Lift Rocket",
+    "category": "Rocket",
+    "qty": 2,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R713",
+    "name": "ESA Vega-C Small Payload Launcher",
+    "category": "Rocket",
+    "qty": 2,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R714",
+    "name": "Japan H-IIA 202 Launch Vehicle",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R715",
+    "name": "SpaceX Starship Full-Stack Orbital Vehicle",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R716",
+    "name": "Blue Origin New Glenn Heavy-Lift Orbital Rocket",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R717",
+    "name": "Roscosmos Proton-M Launch Vehicle",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R718",
+    "name": "SpaceX Falcon 1 First-Stage Heritage Rocket",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R719",
+    "name": "ISRO GSLV Mk III Heavy-Lift Launch Rocket",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "R720",
+    "name": "Arianespace Ariane 6 (A62) Modular Rocket",
+    "category": "Rocket",
+    "qty": 1,
+    "location": "Underground Warehouse"
+  },
+  {
+    "id": "T801",
+    "name": "M1A2 Abrams SEP v3 Main Battle Tank",
+    "category": "Military Tank",
+    "qty": 2,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T802",
+    "name": "Leopard 2A7+ German Main Battle Tank",
+    "category": "Military Tank",
+    "qty": 3,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T803",
+    "name": "T-90M Proryv Russian Main Battle Tank",
+    "category": "Military Tank",
+    "qty": 4,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T804",
+    "name": "Challenger 2 Black Night British Battle Tank",
+    "category": "Military Tank",
+    "qty": 2,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T805",
+    "name": "K2 Black Panther South Korean MBT",
+    "category": "Military Tank",
+    "qty": 3,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T806",
+    "name": "Merkava Mk4 Israeli Main Battle Tank",
+    "category": "Military Tank",
+    "qty": 2,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T807",
+    "name": "AMX-56 Leclerc French Main Battle Tank",
+    "category": "Military Tank",
+    "qty": 1,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T808",
+    "name": "Type 10 Hitomaru Japanese MBT",
+    "category": "Military Tank",
+    "qty": 2,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T809",
+    "name": "VT-4 (MBT-3000) Chinese Export Tank",
+    "category": "Military Tank",
+    "qty": 3,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T810",
+    "name": "Arjun Mk1A Indian Main Battle Tank",
+    "category": "Military Tank",
+    "qty": 1,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T811",
+    "name": "T-14 Armata Russian Next-Gen MBT",
+    "category": "Military Tank",
+    "qty": 1,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T812",
+    "name": "M60A3 Patton Upgraded Battle Tank",
+    "category": "Military Tank",
+    "qty": 5,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T813",
+    "name": "BMP-3 Infantry Fighting Vehicle",
+    "category": "Military Tank",
+    "qty": 6,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T814",
+    "name": "BMD-4M Russian Airborne Combat Vehicle",
+    "category": "Military Tank",
+    "qty": 4,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T815",
+    "name": "CV90 MkIV Swedish Infantry Fighting Vehicle",
+    "category": "Military Tank",
+    "qty": 3,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T816",
+    "name": "Bradley M2A4 Infantry Fighting Vehicle",
+    "category": "Military Tank",
+    "qty": 5,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T817",
+    "name": "Puma IFV German Armored Fighting Vehicle",
+    "category": "Military Tank",
+    "qty": 2,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T818",
+    "name": "PzH 2000 Self-Propelled 155mm Howitzer (Armored)",
+    "category": "Military Tank",
+    "qty": 2,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T819",
+    "name": "2S19 Msta-S Russian 152mm SPG",
+    "category": "Military Tank",
+    "qty": 2,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "T820",
+    "name": "K9 Thunder South Korean Self-Propelled Howitzer",
+    "category": "Military Tank",
+    "qty": 3,
+    "location": "Military Warehouse"
+  },
+  {
+    "id": "D901",
+    "name": "DJI Matrice 300 RTK Industrial Inspection Drone",
+    "category": "Drone",
+    "qty": 5,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D902",
+    "name": "DJI Mavic 3 Pro Hasselblad Camera Drone",
+    "category": "Drone",
+    "qty": 8,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D903",
+    "name": "Bayraktar TB2 Tactical Unmanned Combat Aerial Vehicle",
+    "category": "Drone",
+    "qty": 1,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D904",
+    "name": "MQ-9 Reaper Long-Endurance UCAV",
+    "category": "Drone",
+    "qty": 1,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D905",
+    "name": "DJI Avata FPV Racing Drone",
+    "category": "Drone",
+    "qty": 6,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D906",
+    "name": "Autel EVO II Pro 6K Rugged Drone",
+    "category": "Drone",
+    "qty": 4,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D907",
+    "name": "Parrot Anafi Thermal Inspection Drone",
+    "category": "Drone",
+    "qty": 3,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D908",
+    "name": "DJI Inspire 3 Cinema Drone Full-Frame 8K",
+    "category": "Drone",
+    "qty": 2,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D909",
+    "name": "Skydio X2D Autonomous Military Recon Drone",
+    "category": "Drone",
+    "qty": 2,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D910",
+    "name": "Raven RQ-11B Hand-Launched Reconnaissance UAV",
+    "category": "Drone",
+    "qty": 5,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D911",
+    "name": "DJI Agras T40 Agricultural Heavy-Lift Drone",
+    "category": "Drone",
+    "qty": 2,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D912",
+    "name": "Wing Loong II Long-Endurance Strike UAV",
+    "category": "Drone",
+    "qty": 1,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D913",
+    "name": "DJI Mini 4 Pro Ultra-Light Drone",
+    "category": "Drone",
+    "qty": 10,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D914",
+    "name": "Ehang 216 Autonomous Passenger Drone",
+    "category": "Drone",
+    "qty": 1,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D915",
+    "name": "Switchblade 300 Loitering Munition Drone",
+    "category": "Drone",
+    "qty": 6,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D916",
+    "name": "DJI FPV Combo 4K 60FPS Hybrid Racing Drone",
+    "category": "Drone",
+    "qty": 5,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D917",
+    "name": "Kratos XQ-58A Valkyrie Stealth Unmanned Fighter Drone",
+    "category": "Drone",
+    "qty": 1,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D918",
+    "name": "Autel Dragonfish VTOL Fixed-Wing Drone",
+    "category": "Drone",
+    "qty": 2,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D919",
+    "name": "DJI Phantom 4 Multispectral Mapping Drone",
+    "category": "Drone",
+    "qty": 4,
+    "location": "Upper Warehouse"
+  },
+  {
+    "id": "D920",
+    "name": "Parrot ANAFI USA Tactical Surveillance Drone",
+    "category": "Drone",
+    "qty": 3,
+    "location": "Upper Warehouse"
   }
 ]
