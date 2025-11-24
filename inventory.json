@@ -327,5 +327,915 @@
     "category": "Computers",
     "qty": 1,
     "location": "Rak A1"
+  },
+  {
+    "id": "N048",
+    "name": "SUV",
+    "category": "Vehicles",
+    "qty": 63,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N049",
+    "name": "Pen",
+    "category": "General",
+    "qty": 42,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N050",
+    "name": "ATV",
+    "category": "Vehicles",
+    "qty": 82,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N051",
+    "name": "Milk",
+    "category": "Food",
+    "qty": 79,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N052",
+    "name": "Milk",
+    "category": "Food",
+    "qty": 11,
+    "location": "Rack B"
+  },
+  {
+    "id": "N053",
+    "name": "Banana",
+    "category": "Food",
+    "qty": 48,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N054",
+    "name": "Electric Scooter",
+    "category": "Vehicles",
+    "qty": 98,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N055",
+    "name": "Van",
+    "category": "Vehicles",
+    "qty": 15,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N056",
+    "name": "Water Bottle",
+    "category": "General",
+    "qty": 16,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N057",
+    "name": "USB Hub",
+    "category": "Electronics",
+    "qty": 2,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N058",
+    "name": "Pickup",
+    "category": "Vehicles",
+    "qty": 49,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N059",
+    "name": "Laptop",
+    "category": "Electronics",
+    "qty": 25,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N060",
+    "name": "Mouse",
+    "category": "Electronics",
+    "qty": 34,
+    "location": "Rack B"
+  },
+  {
+    "id": "N061",
+    "name": "Laptop",
+    "category": "Electronics",
+    "qty": 29,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N062",
+    "name": "Motorcycle",
+    "category": "Vehicles",
+    "qty": 46,
+    "location": "Shelf 2"
+  },
+  {
+    "id": "N063",
+    "name": "Keyboard",
+    "category": "Electronics",
+    "qty": 72,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N064",
+    "name": "Pickup",
+    "category": "Vehicles",
+    "qty": 90,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "N065",
+    "name": "Mouse",
+    "category": "Electronics",
+    "qty": 49,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "N066",
+    "name": "Tablet",
+    "category": "Electronics",
+    "qty": 52,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N067",
+    "name": "Cereal",
+    "category": "Food",
+    "qty": 57,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "N068",
+    "name": "Apple",
+    "category": "Food",
+    "qty": 43,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N069",
+    "name": "Keyboard",
+    "category": "Electronics",
+    "qty": 42,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N070",
+    "name": "ATV",
+    "category": "Vehicles",
+    "qty": 32,
+    "location": "Rack B"
+  },
+  {
+    "id": "N071",
+    "name": "Keyboard",
+    "category": "Electronics",
+    "qty": 94,
+    "location": "Shelf 2"
+  },
+  {
+    "id": "N072",
+    "name": "Sedan Car",
+    "category": "Vehicles",
+    "qty": 17,
+    "location": "Shelf 2"
+  },
+  {
+    "id": "N073",
+    "name": "Sedan Car",
+    "category": "Vehicles",
+    "qty": 79,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N074",
+    "name": "Lamp",
+    "category": "General",
+    "qty": 44,
+    "location": "Rack B"
+  },
+  {
+    "id": "N075",
+    "name": "Cookies",
+    "category": "Food",
+    "qty": 28,
+    "location": "Rack B"
+  },
+  {
+    "id": "N076",
+    "name": "Motorcycle",
+    "category": "Vehicles",
+    "qty": 25,
+    "location": "Rack A"
+  },
+  {
+    "id": "N077",
+    "name": "Pen",
+    "category": "General",
+    "qty": 16,
+    "location": "Rack B"
+  },
+  {
+    "id": "N078",
+    "name": "Pickup",
+    "category": "Vehicles",
+    "qty": 64,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "N079",
+    "name": "Banana",
+    "category": "Food",
+    "qty": 99,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N080",
+    "name": "Monitor",
+    "category": "Electronics",
+    "qty": 11,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N081",
+    "name": "USB Hub",
+    "category": "Electronics",
+    "qty": 40,
+    "location": "Rack A"
+  },
+  {
+    "id": "N082",
+    "name": "GoKart",
+    "category": "Vehicles",
+    "qty": 2,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N083",
+    "name": "Chocolate",
+    "category": "Food",
+    "qty": 12,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N084",
+    "name": "Electric Scooter",
+    "category": "Vehicles",
+    "qty": 16,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N085",
+    "name": "Shoes",
+    "category": "General",
+    "qty": 92,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N086",
+    "name": "Notebook",
+    "category": "General",
+    "qty": 71,
+    "location": "Rack A"
+  },
+  {
+    "id": "N087",
+    "name": "Pickup",
+    "category": "Vehicles",
+    "qty": 78,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N088",
+    "name": "USB Hub",
+    "category": "Electronics",
+    "qty": 7,
+    "location": "Rack B"
+  },
+  {
+    "id": "N089",
+    "name": "Apple",
+    "category": "Food",
+    "qty": 43,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N090",
+    "name": "Bread",
+    "category": "Food",
+    "qty": 80,
+    "location": "Shelf 2"
+  },
+  {
+    "id": "N091",
+    "name": "Bread",
+    "category": "Food",
+    "qty": 86,
+    "location": "Rack B"
+  },
+  {
+    "id": "N092",
+    "name": "Pickup",
+    "category": "Vehicles",
+    "qty": 11,
+    "location": "Shelf 2"
+  },
+  {
+    "id": "N093",
+    "name": "Sedan Car",
+    "category": "Vehicles",
+    "qty": 57,
+    "location": "Rack A"
+  },
+  {
+    "id": "N094",
+    "name": "Cereal",
+    "category": "Food",
+    "qty": 44,
+    "location": "Rack A"
+  },
+  {
+    "id": "N095",
+    "name": "Cereal",
+    "category": "Food",
+    "qty": 2,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "N096",
+    "name": "Van",
+    "category": "Vehicles",
+    "qty": 87,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "N097",
+    "name": "Pickup",
+    "category": "Vehicles",
+    "qty": 23,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N098",
+    "name": "Motorcycle",
+    "category": "Vehicles",
+    "qty": 73,
+    "location": "Rack A"
+  },
+  {
+    "id": "N099",
+    "name": "Van",
+    "category": "Vehicles",
+    "qty": 33,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N100",
+    "name": "Rice",
+    "category": "Food",
+    "qty": 41,
+    "location": "Rack A"
+  },
+  {
+    "id": "N101",
+    "name": "Electric Scooter",
+    "category": "Vehicles",
+    "qty": 2,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "N102",
+    "name": "Headset",
+    "category": "Electronics",
+    "qty": 90,
+    "location": "Rack B"
+  },
+  {
+    "id": "N103",
+    "name": "Shoes",
+    "category": "General",
+    "qty": 26,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N104",
+    "name": "Motorcycle",
+    "category": "Vehicles",
+    "qty": 91,
+    "location": "Rack B"
+  },
+  {
+    "id": "N105",
+    "name": "Truck Mini",
+    "category": "Vehicles",
+    "qty": 72,
+    "location": "Shelf 2"
+  },
+  {
+    "id": "N106",
+    "name": "Banana",
+    "category": "Food",
+    "qty": 94,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N107",
+    "name": "Pickup",
+    "category": "Vehicles",
+    "qty": 77,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N108",
+    "name": "Chair",
+    "category": "General",
+    "qty": 74,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "N109",
+    "name": "Water Bottle",
+    "category": "General",
+    "qty": 72,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N110",
+    "name": "Sedan Car",
+    "category": "Vehicles",
+    "qty": 9,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N111",
+    "name": "Pickup",
+    "category": "Vehicles",
+    "qty": 47,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "N112",
+    "name": "Instant Noodles",
+    "category": "Food",
+    "qty": 71,
+    "location": "Rack B"
+  },
+  {
+    "id": "N113",
+    "name": "Fan",
+    "category": "General",
+    "qty": 57,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N114",
+    "name": "Chair",
+    "category": "General",
+    "qty": 68,
+    "location": "Rack A"
+  },
+  {
+    "id": "N115",
+    "name": "Rice",
+    "category": "Food",
+    "qty": 82,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N116",
+    "name": "USB Hub",
+    "category": "Electronics",
+    "qty": 90,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N117",
+    "name": "Clothes",
+    "category": "General",
+    "qty": 56,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N118",
+    "name": "Water Bottle",
+    "category": "General",
+    "qty": 15,
+    "location": "Shelf 2"
+  },
+  {
+    "id": "N119",
+    "name": "Water Bottle",
+    "category": "General",
+    "qty": 65,
+    "location": "Rack B"
+  },
+  {
+    "id": "N120",
+    "name": "Tea",
+    "category": "Food",
+    "qty": 51,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N121",
+    "name": "Laptop",
+    "category": "Electronics",
+    "qty": 69,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N122",
+    "name": "Chair",
+    "category": "General",
+    "qty": 80,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N123",
+    "name": "Van",
+    "category": "Vehicles",
+    "qty": 89,
+    "location": "Rack B"
+  },
+  {
+    "id": "N124",
+    "name": "Instant Noodles",
+    "category": "Food",
+    "qty": 34,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N125",
+    "name": "Sedan Car",
+    "category": "Vehicles",
+    "qty": 20,
+    "location": "Shelf 2"
+  },
+  {
+    "id": "N126",
+    "name": "Apple",
+    "category": "Food",
+    "qty": 60,
+    "location": "Rack B"
+  },
+  {
+    "id": "N127",
+    "name": "Sedan Car",
+    "category": "Vehicles",
+    "qty": 85,
+    "location": "Shelf 2"
+  },
+  {
+    "id": "N128",
+    "name": "Pickup",
+    "category": "Vehicles",
+    "qty": 66,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N129",
+    "name": "Milk",
+    "category": "Food",
+    "qty": 33,
+    "location": "Rack B"
+  },
+  {
+    "id": "N130",
+    "name": "Rice",
+    "category": "Food",
+    "qty": 38,
+    "location": "Shelf 2"
+  },
+  {
+    "id": "N131",
+    "name": "Sedan Car",
+    "category": "Vehicles",
+    "qty": 32,
+    "location": "Shelf 2"
+  },
+  {
+    "id": "N132",
+    "name": "Pickup",
+    "category": "Vehicles",
+    "qty": 7,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N133",
+    "name": "Apple",
+    "category": "Food",
+    "qty": 64,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "N134",
+    "name": "ATV",
+    "category": "Vehicles",
+    "qty": 71,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N135",
+    "name": "Notebook",
+    "category": "General",
+    "qty": 61,
+    "location": "Rack A"
+  },
+  {
+    "id": "N136",
+    "name": "Notebook",
+    "category": "General",
+    "qty": 83,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N137",
+    "name": "Webcam",
+    "category": "Electronics",
+    "qty": 2,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N138",
+    "name": "Water Bottle",
+    "category": "General",
+    "qty": 85,
+    "location": "Rack B"
+  },
+  {
+    "id": "N139",
+    "name": "Notebook",
+    "category": "General",
+    "qty": 47,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "N140",
+    "name": "Rice",
+    "category": "Food",
+    "qty": 68,
+    "location": "Rack B"
+  },
+  {
+    "id": "N141",
+    "name": "Water Bottle",
+    "category": "General",
+    "qty": 4,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N142",
+    "name": "Cereal",
+    "category": "Food",
+    "qty": 50,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N143",
+    "name": "Fan",
+    "category": "General",
+    "qty": 94,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N144",
+    "name": "Backpack",
+    "category": "General",
+    "qty": 14,
+    "location": "Rack A"
+  },
+  {
+    "id": "N145",
+    "name": "Banana",
+    "category": "Food",
+    "qty": 34,
+    "location": "Rack B"
+  },
+  {
+    "id": "N146",
+    "name": "Webcam",
+    "category": "Electronics",
+    "qty": 9,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "N147",
+    "name": "Shoes",
+    "category": "General",
+    "qty": 96,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "F401",
+    "name": "IKEA LACK Coffee Table White 90x55 cm",
+    "category": "Furniture",
+    "qty": 18,
+    "location": "Rack C"
+  },
+  {
+    "id": "F402",
+    "name": "IKEA MALM 6-Drawer Chest Black-Brown",
+    "category": "Furniture",
+    "qty": 7,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "F403",
+    "name": "IKEA POÄNG Armchair Birch Veneer with Knisa Light Beige",
+    "category": "Furniture",
+    "qty": 10,
+    "location": "Rack B"
+  },
+  {
+    "id": "F404",
+    "name": "IKEA ALEX Drawer Unit White 36x70 cm",
+    "category": "Furniture",
+    "qty": 14,
+    "location": "Rack A"
+  },
+  {
+    "id": "F405",
+    "name": "IKEA LINNMON Tabletop Black-Brown 120x60 cm",
+    "category": "Furniture",
+    "qty": 22,
+    "location": "Rack C"
+  },
+  {
+    "id": "F406",
+    "name": "IKEA ADILS Table Leg White 70 cm (Set of 4)",
+    "category": "Furniture",
+    "qty": 30,
+    "location": "Rack A"
+  },
+  {
+    "id": "F407",
+    "name": "Informa Liam Office Chair Black Mesh",
+    "category": "Furniture",
+    "qty": 9,
+    "location": "Rack B"
+  },
+  {
+    "id": "F408",
+    "name": "Informa Denver 3-Seater Sofa Dark Grey Fabric",
+    "category": "Furniture",
+    "qty": 3,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "F409",
+    "name": "IKEA KALLAX Shelf Unit 4x4 White",
+    "category": "Furniture",
+    "qty": 5,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "F410",
+    "name": "IKEA MARKUS High-Back Swivel Chair Black",
+    "category": "Furniture",
+    "qty": 6,
+    "location": "Rack B"
+  },
+  {
+    "id": "F411",
+    "name": "IKEA BRIMNES Bed Frame 160x200 with Storage Black",
+    "category": "Furniture",
+    "qty": 4,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "F412",
+    "name": "IKEA NORDVIKEN Extendable Dining Table White 152/223 cm",
+    "category": "Furniture",
+    "qty": 2,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "F413",
+    "name": "IKEA HEMNES TV Bench Black-Brown 148x47x57 cm",
+    "category": "Furniture",
+    "qty": 5,
+    "location": "Rack C"
+  },
+  {
+    "id": "F414",
+    "name": "Informa Oslo Side Table Oak Finish 45 cm",
+    "category": "Furniture",
+    "qty": 16,
+    "location": "Rack A"
+  },
+  {
+    "id": "F415",
+    "name": "IKEA BILLY Bookcase White 80x202 cm",
+    "category": "Furniture",
+    "qty": 11,
+    "location": "Rack C"
+  },
+  {
+    "id": "F416",
+    "name": "IKEA MALM Bedside Table 2 Drawers White",
+    "category": "Furniture",
+    "qty": 20,
+    "location": "Rack B"
+  },
+  {
+    "id": "F417",
+    "name": "IKEA INGOLF Dining Chair White Solid Wood",
+    "category": "Furniture",
+    "qty": 12,
+    "location": "Rack A"
+  },
+  {
+    "id": "F418",
+    "name": "Informa Verona Wardrobe 3-Door Sliding Oak Texture",
+    "category": "Furniture",
+    "qty": 3,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "F419",
+    "name": "IKEA FRIHETEN Sleeper Sofa with Storage Dark Grey",
+    "category": "Furniture",
+    "qty": 2,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "F420",
+    "name": "Informa Kingston Computer Desk with Drawer Walnut 120 cm",
+    "category": "Furniture",
+    "qty": 9,
+    "location": "Rack C"
+  },
+  {
+    "id": "N301",
+    "name": "Logitech G502 HERO Wired Gaming Mouse",
+    "category": "Electronics",
+    "qty": 14,
+    "location": "Rack A"
+  },
+  {
+    "id": "N302",
+    "name": "Indomie Mi Goreng Rasa Ayam Geprek 85g",
+    "category": "Food",
+    "qty": 120,
+    "location": "Shelf 2"
+  },
+  {
+    "id": "N303",
+    "name": "Toyota Avanza 1.3 E Manual 2022",
+    "category": "Vehicles",
+    "qty": 1,
+    "location": "Warehouse 1"
+  },
+  {
+    "id": "N304",
+    "name": "Canon PIXMA G3010 All-in-One Ink Tank Printer",
+    "category": "Electronics",
+    "qty": 6,
+    "location": "Rack B"
+  },
+  {
+    "id": "N305",
+    "name": "Oreo Vanilla 133g Family Pack",
+    "category": "Food",
+    "qty": 42,
+    "location": "Shelf 1"
+  },
+  {
+    "id": "N306",
+    "name": "Yamaha NMAX 155 ABS Connected 2023",
+    "category": "Vehicles",
+    "qty": 2,
+    "location": "Warehouse 2"
+  },
+  {
+    "id": "N307",
+    "name": "Fantech MAXFIT61 Sakura Limited Mechanical Keyboard",
+    "category": "Electronics",
+    "qty": 8,
+    "location": "Cabinet"
+  },
+  {
+    "id": "N308",
+    "name": "Nestle Milo 3in1 Activ-Go Sachet 10 Pack",
+    "category": "Food",
+    "qty": 55,
+    "location": "Shelf 2"
+  },
+  {
+    "id": "N309",
+    "name": "IKEA ADILS Table Leg Black 70cm",
+    "category": "General",
+    "qty": 27,
+    "location": "Rack C"
+  },
+  {
+    "id": "N310",
+    "name": "RTX 3060 Ti ASUS TUF Gaming OC Edition",
+    "category": "Electronics",
+    "qty": 4,
+    "location": "Rack A"
   }
 ]
