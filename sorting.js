@@ -18,12 +18,16 @@ function renderTable(data) {
         tableBody.innerHTML += row;
     });
 }
-function loadInventory("inventory.json") {
-    items = "inventory.json";
+function loadInventory(jsonData) {
+  items = jsonData;
+  sortById();
+  renderTable(items);
+}
 
-    sortById();
-
-    renderTable(items);
+fetch("inventory.json")
+  .then(response => response.json())
+  .then(data => loadInventory(data))
+  .catch(error => console.error("Gagal load JSON:", error));
 }
 // SORTING FUNCTIONS
 function sortById() {
@@ -50,3 +54,4 @@ function renderSearchResults(results) {
     renderTable(results);
 
 }
+
