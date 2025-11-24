@@ -228,5 +228,37 @@
     document.getElementById('list').innerHTML = '<div class="muted">Silakan tekan "Load Default" untuk memuat file dari path default, atau gunakan tombol Upload untuk pilih file secara manual.</div>';
     setStats(0,'No data loaded');
   </script>
+  <!-- Visitor Counter (Bottom Right) -->
+<div id="visitor-counter-box"
+     style="
+        position: fixed;
+        bottom: 16px;
+        right: 16px;
+        padding: 8px 12px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(6px);
+        border: 1px solid rgba(255,255,255,0.08);
+        color: #94a3b8;
+        font-size: 12px;
+        border-radius: 8px;
+        z-index: 9999;
+     ">
+  Visitors: <span id="visitor-counter">...</span>
+ </div>
+ <script>
+  const counterUrl = "https://api.countapi.xyz/hit/inventory-search-web/visits";
+  async function updateVisitorCount() {
+    try {
+      const res = await fetch(counterUrl);
+      const data = await res.json();
+      const count = data.value;
+      document.getElementById("visitor-counter").textContent = count.toLocaleString();
+    } catch (err) {
+      console.error("Error loading visitor count:", err);
+    }
+  }
+  updateVisitorCount();
+ </script>
 </body>
 </html>
+
